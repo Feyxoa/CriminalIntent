@@ -16,8 +16,10 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="16dp"
         android:text="Crime Title"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/imageView"
+        app:layout_constraintRight_toLeftOf="@+id/crime_solved"
         app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
@@ -30,10 +32,10 @@
         android:text="Crime Date"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/imageView"/>
+        app:layout_constraintRight_toLeftOf="@+id/crime_solved"/>
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/crime_solved"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
