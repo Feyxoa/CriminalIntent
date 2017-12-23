@@ -177,7 +177,7 @@ public class CrimeFragment extends Fragment {
             } finally {
                 c.close();
             }
-        } //for test commit
+        }
     }
 
     private void updateDate() {
